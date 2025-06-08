@@ -4,58 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Apple Style </title>
+    <title>Apple Style</title>
 </head>
-<body>
+<body class="page">
     <header class="header">
-        <img src="image/header/logo-apple.png" alt="" loading="lazy">
+        <img class="header__logo" src="image/header/logo-apple.png" alt="Apple logo" loading="lazy">
     </header>
+    
     <main class="main">
-        <section class="section">
-            <h1 class="section__h1">
+        <section class="hero">
+            <h1 class="hero__title">
                 Our most stunning take
             </h1>
-        <div class="button__button">
-            <a href="https://github.com/aleksanderlamkov/kropp-fitness/blob/main/styles.css">
-            <button class="button">Buy now</button>
-            </a>
-        </div>
-            <img src="image/main/final_cut_pro_x_imac_hdr_support_201712141513260184864.svg" alt="">
-        <div class="section__div">
-            <div class="section__div-1">
-                <p class="section__div-p">up to</p>
-                <h2 class="section__div-h2">3.2x</h2>
-                <p class="section__div-p">faster render</p>
+            
+            <div class="hero__button-container">
+                <a class="hero__link" href="https://github.com/aleksanderlamkov/kropp-fitness/blob/main/styles.css">
+                    <button class="hero__button">Buy now</button>
+                </a>
             </div>
+            
+            <img class="hero__image" src="image/main/final_cut_pro_x_imac_hdr_support_201712141513260184864.svg" alt="Final Cut Pro X on iMac">
+            
+            <div class="hero__features">
+                <div class="feature">
+                    <p class="feature__description">up to</p>
+                    <h2 class="feature__value">3.2x</h2>
+                    <p class="feature__description">faster render</p>
+                </div>
 
-            <div class="section__div-2">
-                <p class="section__div-p">up to</p>
-                <h2 class="section__div-h2">8.0+</h2>
-                <p class="section__div-p">streams 4K</p>
-            </div>
+                <div class="feature">
+                    <p class="feature__description">up to</p>
+                    <h2 class="feature__value">8.0+</h2>
+                    <p class="feature__description">streams 4K</p>
+                </div>
 
-            <div class="section__div-3">
-                <p class="section__div-p">up to</p>
-                <h2 class="section__div-h2">2.0x</h2>
-                <p class="section__div-p">faster GPU</p>
+                <div class="feature">
+                    <p class="feature__description">up to</p>
+                    <h2 class="feature__value">2.0x</h2>
+                    <p class="feature__description">faster GPU</p>
+                </div>
             </div>
-        </div>
         </section>
     </main>
+    
     <footer class="footer">
-        <div class="footer__logo">
-            <img src="/image/footer/facebook logo.svg" alt="#" >
-            <img src="/image/footer/twitter logo.svg" alt="#" >
-            <img src="/image/footer/instagram logo.svg" alt="#" >
+        <div class="footer__social">
+            <a class="footer__social-link" href="#">
+                <img class="footer__social-icon" src="image/footer/facebook logo.svg" alt="Facebook">
+            </a>
+            <a class="footer__social-link" href="#">
+                <img class="footer__social-icon" src="image/footer/instagram logo.svg" alt="Instagram">
+            </a>
+            <a class="footer__social-link" href="#">
+                <img class="footer__social-icon" src="image/footer/twitter logo.svg" alt="Twitter">
+            </a>
         </div>
-        <div class="footer__words">
-        <h3 class="footer__h3">
-            All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
-        </h3>
-        <h3 class="footer__h3-2">
-            s email was sent to hello@you.com because you indicated that you’d like  
-        </h3>
-    </div>
+        
+        <div class="footer__legal">
+            <p class="footer__copyright">
+                All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+            </p>
+            <p class="footer__notice">
+                This email was sent to hello@you.com because you indicated that you'd like  
+            </p>
+        </div>
     </footer>
 </body>
 </html>
